@@ -1,7 +1,7 @@
 {
   "jiraId": "KAN-116",
   "title": "Create Basic To-Do List",
-  "currentStage": "verification",
+  "currentStage": "pr-creator",
   "stages": {
     "requirements": {
       "status": "completed",
@@ -50,6 +50,14 @@
       "approval": "approved",
       "approver": "vasu_sachdeva",
       "artifact": "docs/KAN-116/07-verification-report.md",
+      "updated": "2026-10-16"
+    },
+    "pr-creator": {
+      "status": "completed",
+      "approval": "approved",
+      "approver": "vasu_sachdeva",
+      "artifact": "docs/KAN-116/08-pr-summary.md",
+      "pullRequest": "https://github.com/vasusacdeva/GithubCopilotCapstone/pull/1",
       "updated": "2026-10-16"
     }
   },
@@ -101,6 +109,13 @@
       "decision": "approved",
       "approver": "vasu_sachdeva",
       "artifact": "docs/KAN-116/07-verification-report.md",
+      "timestamp": "2026-10-16"
+    },
+    {
+      "stage": "pr-creator",
+      "decision": "approved",
+      "approver": "vasu_sachdeva",
+      "artifact": "docs/KAN-116/08-pr-summary.md",
       "timestamp": "2026-10-16"
     }
   ]
