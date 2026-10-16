@@ -1,0 +1,27 @@
+{
+  "servers": {
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${env:GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
+    },
+    "jira": {
+      "type": "stdio",
+      "command": "C:\\Users\\vasu_sachdeva\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts\\uvx.exe",
+      "args": [
+        "mcp-atlassian"
+      ],
+      "env": {
+        "JIRA_URL": "https://vasusachdeva11.atlassian.net/",
+        "JIRA_USERNAME": "vasusachdeva11@gmail.com",
+        "JIRA_API_TOKEN": "${env:JIRA_API_ACCESS_TOKEN}"
+      }
+    }
+  }
+}
