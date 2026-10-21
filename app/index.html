@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>To-Do List</h1>
+    <form id="task-form" novalidate>
+      <label for="task-input">New task</label>
+      <div class="row">
+        <input id="task-input" type="text" maxlength="200" autocomplete="off" aria-describedby="task-message">
+        <button type="submit">Add Task</button>
+      </div>
+      <p id="task-message" class="message" hidden></p>
+    </form>
+    <p id="empty-state" class="empty">No tasks yet. Add one above.</p>
+    <ul id="task-list" aria-label="Tasks"></ul>
+    <div id="live-region" class="visually-hidden" aria-live="polite"></div>
+  </main>
+  <script src="tasks.js"></script>
+  <script src="storage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

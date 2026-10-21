@@ -1,0 +1,9 @@
+{
+  "name": "kan-116-todo-list",
+  "version": "1.0.0",
+  "description": "Basic to-do list (KAN-116)",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
