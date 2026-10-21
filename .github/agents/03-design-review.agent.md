@@ -16,3 +16,9 @@ Review requirements coverage, produce findings and recommendations, and record t
 Use read/search/edit and approved handoff tools.
 # Expected Output
 Design review artifact, findings, recommendations, and approval status.
+# Instructions
+Follow `instructions/03-design-review.instructions.md`.
+# Prompt
+Default prompt: `prompts/03-design-review.prompt.md`.
+# Skill
+Use `skills/03-design-review-skill.md` to assess implementation readiness.

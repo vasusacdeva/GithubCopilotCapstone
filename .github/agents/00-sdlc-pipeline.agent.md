@@ -16,4 +16,10 @@ Validate story context, confirm predecessor approval, update `docs/<story-id>/pi
 Use Jira MCP, GitHub MCP, read/search/edit, execute, and agent handoff tools.
 # Expected Output
 Current stage, status, artifact, story-local state, evidence, risks, and next action.
+# Instructions
+Follow `instructions/00-sdlc-pipeline.instructions.md`.
+# Prompt
+Default prompt: `prompts/00-sdlc-pipeline.prompt.md`.
+# Skill
+Use `skills/00-pipeline-orchestration-skill.md` to run stages, hooks, and state updates.
  

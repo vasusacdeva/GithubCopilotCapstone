@@ -17,3 +17,9 @@ Define the work plan, dependencies, and validation strategy, then record the app
 Use read/search/edit and approved handoff tools.
 # Expected Output
 Implementation plan artifact, ordered tasks, validation strategy, and approval status.
+# Instructions
+Follow `instructions/04-implementation-planner.instructions.md`.
+# Prompt
+Default prompt: `prompts/04-implementation-planner.prompt.md`.
+# Skill
+Use `skills/04-implementation-planning-skill.md` to sequence verifiable tasks.

@@ -16,3 +16,9 @@ Apply only planned changes, run targeted checks, document the work, and record t
 Use read/search/edit/execute and approved handoff tools.
 # Expected Output
 Implementation summary artifact, changed files, validation results, and approval status.
+# Instructions
+Follow `instructions/05-implementation.instructions.md`.
+# Prompt
+Default prompt: `prompts/05-implementation.prompt.md`.
+# Skill
+Use `skills/05-local-implementation-skill.md` to build and validate locally.

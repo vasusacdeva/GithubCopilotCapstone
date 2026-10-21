@@ -16,3 +16,9 @@ Compare implementation against prior artifacts, summarize checks, and record the
 Use read/search/edit/execute and approved handoff tools.
 # Expected Output
 Verification report artifact, validation evidence, readiness decision, and risk summary.
+# Instructions
+Follow `instructions/07-verification.instructions.md`.
+# Prompt
+Default prompt: `prompts/07-verification.prompt.md`.
+# Skill
+Use `skills/07-release-verification-skill.md` to verify readiness.
