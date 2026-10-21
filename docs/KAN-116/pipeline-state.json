@@ -1,0 +1,24 @@
+{
+  "storyId": "KAN-116",
+  "title": "Create Basic To-Do List",
+  "currentStage": "pr-creator",
+  "stages": {
+    "requirements": { "status": "approved", "approval": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/01-requirements.md", "updated": "2026-10-21" },
+    "architecture": { "status": "approved", "approval": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/02-architecture.md", "updated": "2026-10-21" },
+    "design-review": { "status": "approved", "approval": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/03-design-review.md", "updated": "2026-10-21" },
+    "implementation-planner": { "status": "approved", "approval": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/04-impl-plan.md", "updated": "2026-10-21" },
+    "implementation": { "status": "approved", "approval": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/05-implementation-summary.md", "updated": "2026-10-21" },
+    "code-review": { "status": "approved", "approval": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/06-code-review.md", "updated": "2026-10-21" },
+    "verification": { "status": "approved", "approval": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/07-verification-report.md", "updated": "2026-10-21" },
+    "pr-creator": { "status": "not-started", "approval": null, "approver": null, "artifact": null, "updated": null }
+  },
+  "history": [
+    { "stage": "requirements", "decision": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/01-requirements.md", "timestamp": "2026-10-21", "next": "02-architecture.agent.md" },
+    { "stage": "architecture", "decision": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/02-architecture.md", "timestamp": "2026-10-21", "next": "03-design-review.agent.md" },
+    { "stage": "design-review", "decision": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/03-design-review.md", "timestamp": "2026-10-21", "next": "04-implementation-planner.agent.md" },
+    { "stage": "implementation-planner", "decision": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/04-impl-plan.md", "timestamp": "2026-10-21", "next": "05-implementation.agent.md" },
+    { "stage": "implementation", "decision": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/05-implementation-summary.md", "timestamp": "2026-10-21", "next": "06-code-review.agent.md" },
+    { "stage": "code-review", "decision": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/06-code-review.md", "timestamp": "2026-10-21", "next": "07-verification.agent.md" },
+    { "stage": "verification", "decision": "approved", "approver": "vasu_sachdeva", "artifact": "docs/KAN-116/07-verification-report.md", "timestamp": "2026-10-21", "next": "08-pr-creator.agent.md" }
+  ]
+}
