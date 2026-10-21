@@ -4,8 +4,8 @@ Reusable capability for fetching and normalizing Jira issue content via the `jir
 
 ## When to use
 
-Any stage that needs authoritative Jira context — primarily `requirements-analyst`, but also
-`code-reviewer`/`verification-engineer` if they need to re-check acceptance criteria.
+Any stage that needs authoritative Jira context — primarily `01-requirements`, but also
+`06-code-review`/`07-verification` if they need to re-check acceptance criteria.
 
 ## Steps
 
@@ -13,7 +13,7 @@ Any stage that needs authoritative Jira context — primarily `requirements-anal
    key.
 2. Extract: summary, description, acceptance criteria (parsed from description or a custom field), labels,
    linked issues, and the latest comments.
-3. Normalize into markdown matching `docs/_template/01-requirements.md`'s headings.
+3. Normalize into markdown using the section layout in `instructions/01-requirements.instructions.md`.
 4. Cache the raw JSON response at `.cache/<jiraId>.atlassian-issue.json` for reuse within the same run.
 
 ## Failure handling

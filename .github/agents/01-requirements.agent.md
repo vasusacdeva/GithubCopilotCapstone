@@ -18,3 +18,7 @@ Use `skills/01-jira-retrieval-skill.md` to retrieve Jira story data before gener
 Use Jira MCP, read/search/edit, and approved handoff tools.
 # Expected Output
 Requirements artifact, approval status, evidence, and open questions.
+# Instructions
+Follow `instructions/01-requirements.instructions.md`.
+# Prompt
+Default prompt: `prompts/01-requirements.prompt.md`. 

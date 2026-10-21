@@ -13,8 +13,12 @@ Confirm branch and repository readiness before PR creation.
 # Action
 Check GitHub context, validate branch and release evidence, create the PR, and record confirmed details.
 # Skill
-Use `skills/02-pr-validation-skill.md` to validate PR readiness before creating or confirming the pull request.
+Use `skills/08-pr-creation-skill.md` to validate PR readiness (it re-runs the validation in `skills/07-release-verification-skill.md`) and to create the branch and pull request.
 # Tools
 Use GitHub MCP, read/search/edit, and approved handoff tools.
 # Expected Output
 PR summary artifact, repository and branch details, PR URL or blocking reason, and status.
+# Instructions
+Follow `instructions/08-pr-creator.instructions.md`.
+# Prompt
+Default prompt: `prompts/08-pr-creator.prompt.md`.

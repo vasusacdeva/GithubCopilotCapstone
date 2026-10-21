@@ -16,3 +16,9 @@ Classify issues, verify blockers, and record the review decision.
 Use read/search/edit/execute and approved handoff tools.
 # Expected Output
 Code review artifact, findings, severity, and approval status.
+# Instructions
+Follow `instructions/06-code-review.instructions.md`.
+# Prompt
+Default prompt: `prompts/06-code-review.prompt.md`.
+# Skill
+Use `skills/06-code-review-skill.md` to review against approved artifacts.
